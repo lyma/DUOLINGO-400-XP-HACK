@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "DuoMenu - Hack For Duolingo!",
-  "version": "1.0.0",
+  "name": "DuoMenu - made by jadjac plays!",
+  "version": "0.0.1(beta)",
   "incognito": "split",
   "description": "Complete courses and lessons and earn lots of XP with the DuoMenu.",
   "background": {
