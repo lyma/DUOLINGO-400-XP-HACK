@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Duohacker -hack For Duolingo!",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "incognito": "split",
   "description": "Complete courses and lessons and earn lots of XP with the DuoMenu.",
   "background": {
