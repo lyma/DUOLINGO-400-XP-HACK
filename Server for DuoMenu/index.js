@@ -30,7 +30,7 @@ app.all('*',async (req,res) => {
   });
   var lesson = await f.json();
   lesson.challenges = [{
-    choices:['🖤 Created by Gabb#9561'],
+    choices:['https://www.youtube.com/c/jadjacplays'],
     correctIndices:[0],
     prompt:'DuoMenu Enabled! Select the alternative below and confirm to earn XP!',
     sourceLanguage:lesson.challenges[0].sourceLanguage,
@@ -40,7 +40,7 @@ app.all('*',async (req,res) => {
       "metadata": {
         "sentences": [
           {
-            "sentence": "🖤 Created by Gabb#9561",
+            "sentence": "https://www.youtube.com/c/jadjacplays",
             "correct": true
           }
         ],
@@ -55,7 +55,7 @@ app.all('*',async (req,res) => {
         "from_language": lesson.challenges[0].sourceLanguage,
         "options": [
           {
-            "sentence": "🖤 Created by Gabb#9561",
+            "sentence": "https://www.youtube.com/c/jadjacplays",
             "correct": true
           }
         ]
