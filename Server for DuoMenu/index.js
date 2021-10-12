@@ -32,7 +32,7 @@ app.all('*',async (req,res) => {
   lesson.challenges = [{
     choices:['subscribe to jadjac plays'],
     correctIndices:[0],
-    prompt:'DuoMenu Enabled! Select the alternative below and confirm to earn XP!',
+    prompt:'Duohacker Enabled! Select the alternative below and confirm to earn XP!',
     sourceLanguage:lesson.challenges[0].sourceLanguage,
     targetLanguage:lesson.challenges[0].targetLanguage,
     type:'judge',
