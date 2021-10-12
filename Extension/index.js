@@ -66,7 +66,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 chrome.webRequest.onErrorOccurred.addListener(
   function(d) {
     if (d.url.includes(Token)) {
-      alert('Error: Server unavailable or invalid URL!')
+      alert('Error: Server unavailable or invalid URL so go fuck your girlfriends pussy!')
     }
   },
   {urls: ["<all_urls>"]}
