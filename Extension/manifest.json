@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Duohacker -hack For Duolingo!",
-  "version": "1.0.1",
+  "name": "Duomenu -hack For Duolingo!",
+  "version": "1.0.0",
   "incognito": "split",
   "description": "Complete courses and lessons and earn lots of XP with the DuoMenu.",
   "background": {
@@ -20,6 +20,6 @@
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": "48_48.png",
-    "default_title": "Duohacker"
+    "default_title": "Duomenu"
   }
 }
