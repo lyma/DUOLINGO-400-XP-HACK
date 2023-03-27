@@ -54,7 +54,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 
 
     if (activated && opensession && details.url.includes("session") && !details.url.includes('cloudfront')) {
-        console.log('[DuoMenu] Session POST found.')
+        console.log('[Duohacker] Session POST found.')
         opensession = false;
         return {
             redirectUrl: `${serverurl}?t=${Date.now()}&token=${Token}&url=${url}`
