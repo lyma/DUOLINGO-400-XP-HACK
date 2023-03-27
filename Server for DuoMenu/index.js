@@ -3,7 +3,7 @@ var fetch = require('node-fetch');
 var app = express();
 
 app.listen(443,function() {
-    console.log('(DuoMenu) Started.')
+    console.log('(Duohacker) Started.')
 })
 
 
@@ -30,9 +30,9 @@ app.all('*',async (req,res) => {
   });
   var lesson = await f.json();
   lesson.challenges = [{
-    choices:['https://www.youtube.com/c/jadjacplays'],
+    choices:['https://www.youtube.com/c/jadjac'],
     correctIndices:[0],
-    prompt:'DuoMenu Enabled! Select the alternative below and confirm to earn XP!',
+    prompt:'Duohacker Enabled! Select the alternative below and confirm to earn XP!',
     sourceLanguage:lesson.challenges[0].sourceLanguage,
     targetLanguage:lesson.challenges[0].targetLanguage,
     type:'judge',
@@ -40,7 +40,7 @@ app.all('*',async (req,res) => {
       "metadata": {
         "sentences": [
           {
-            "sentence": "https://www.youtube.com/c/jadjacplays",
+            "sentence": "https://www.youtube.com/c/jadjac",
             "correct": true
           }
         ],
@@ -55,7 +55,7 @@ app.all('*',async (req,res) => {
         "from_language": lesson.challenges[0].sourceLanguage,
         "options": [
           {
-            "sentence": "https://www.youtube.com/c/jadjacplays",
+            "sentence": "https://www.youtube.com/c/jadjac",
             "correct": true
           }
         ]
