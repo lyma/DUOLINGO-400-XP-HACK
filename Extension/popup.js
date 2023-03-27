@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
     document.querySelector('.git').addEventListener('click',() => {
-      window.open('https://github.com/GabrielMota1056/duomenu/blob/main/README.md', '_blank').focus();
+      window.open('https://github.com/jaden34567/DUOLINGO-400-XP-HACK', '_blank').focus();
     })
     document.querySelector(".button").addEventListener("click", () => {
         chrome.storage.sync.set({
